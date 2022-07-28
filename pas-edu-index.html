@@ -13,7 +13,7 @@
 <body>
       <!-- creating navbar start -------
       ---------------------------------->
-      <nav class="navbar navbar-expand-lg bg-light">
+      <nav class="navbar navbar-expand-lg bg-light fixed-top">
             <div class="container">
                   <a class="navbar-brand fw-bold fs-3" href="#">Passion Education</a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -48,6 +48,7 @@
                   </div>
             </div>
       </nav>
+
       <!-- creating navbar end-----------
       ---------------------------------->
 
@@ -128,7 +129,8 @@
                   <div class="container ">
                         <div class="row g-5 ">
                               <div class="col-lg-6 col-md-12 col-sm-12 ">
-                                    <div class="d-flex align-items-center shadow-lg rounded sm-flex-col">
+                                    <div
+                                          class="d-flex align-items-center shadow-lg rounded sm-flex-col flex-column flex-md-column flex-md-row flex-lg-row">
                                           <div class="pe-3 ">
                                                 <img src="images/course/course-1.png" alt="">
                                           </div>
@@ -146,7 +148,8 @@
 
                               </div>
                               <div class="col-lg-6 col-md-12 col-sm-12 ">
-                                    <div class="d-flex align-items-center shadow-lg rounded">
+                                    <div
+                                          class="d-flex align-items-center shadow-lg rounded flex-column flex-md-column flex-md-row flex-lg-row">
                                           <div class="pe-3 ">
                                                 <img src="images/course/course-2.png" alt="">
                                           </div>
@@ -164,7 +167,8 @@
 
                               </div>
                               <div class="col-lg-6 col-md-12 col-sm-12 ">
-                                    <div class="d-flex align-items-center shadow-lg rounded">
+                                    <div
+                                          class="d-flex align-items-center shadow-lg rounded flex-column flex-md-column flex-md-row flex-lg-row">
                                           <div class="pe-3 ">
                                                 <img src="images/course/course-3.png" alt="">
                                           </div>
@@ -182,7 +186,8 @@
 
                               </div>
                               <div class="col-lg-6 col-md-12 col-sm-12 ">
-                                    <div class="d-flex align-items-center shadow-lg rounded">
+                                    <div
+                                          class="d-flex align-items-center shadow-lg rounded flex-column flex-md-column flex-md-row flex-lg-row">
                                           <div class="pe-3 ">
                                                 <img src="images/course/course-4.png" alt="">
                                           </div>
@@ -200,7 +205,8 @@
 
                               </div>
                               <div class="col-lg-6 col-md-12 col-sm-12 ">
-                                    <div class="d-flex align-items-center shadow-lg rounded">
+                                    <div
+                                          class="d-flex align-items-center shadow-lg rounded flex-column flex-md-column flex-md-row flex-lg-row">
                                           <div class="pe-3 ">
                                                 <img src="images/course/course-5.png" alt="">
                                           </div>
@@ -218,7 +224,8 @@
 
                               </div>
                               <div class="col-lg-6 col-md-12 col-sm-12 ">
-                                    <div class="d-flex align-items-center shadow-lg rounded">
+                                    <div
+                                          class="d-flex align-items-center shadow-lg rounded flex-column flex-md-column flex-md-row   flex-lg-row">
                                           <div class="pe-3 ">
                                                 <img src="images/course/course-6.png" alt="">
                                           </div>
@@ -251,7 +258,8 @@
 
       <!-- Bonus section start----------
       ---------------------------------->
-      <section class="container d-flex justify-content-between bg-info mt-5 p-5">
+      <section
+            class="container d-flex justify-content-between align-items-center bg-info mt-5 p-5 flex-column flex-md-column flex-md-row   flex-lg-row">
             <div class="mt-3 ps-5">
                   <h1 class="fs-1 text-white fw-bold">Ready to join?</h1>
                   <p class="text-white mt-4">It is a long established fact that a reader will be distracted by the <br>
@@ -260,7 +268,7 @@
                         when looking at its layout.</p>
             </div>
             <div>
-                  <button type="button" class="btn btn-light p-3 me-5 mt-5" data-bs-toggle="modal"
+                  <button type="button" class="btn btn-light" data-bs-toggle="modal"
                         data-bs-target="#reg-modal">Register Now</button>
             </div>
       </section>
@@ -295,8 +303,102 @@
       <!-- Modal creating done-----
       ----------------------------->
 
+      <!-- Accordian section start---
+      ------------------------------->
+      <div class="container mt-5 text-center">
+            <h1>Frequently Asked Questions</h1>
+            <p><small>It is a long established fact that a reader will be distracted by the readable <br> content of a
+                        page
+                        when looking at its layout.</small></p>
 
+      </div>
 
+      <div class="container mb-5 mt-5">
+            <div class="accordion" id="accordionExample">
+                  <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    What are the difference between flexbox and grid?
+                              </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                              data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                    <strong>The basic difference between CSS Grid Layout and CSS Flexbox Layout</strong>
+                                    is that flexbox was designed for layout in one dimension - either a row or a column.
+                                    Grid was designed for two-dimensional layout - rows, and columns at the same time.
+                                    The two specifications share some common features, however, and if you have already
+                                    learned how to use flexbox, the similarities should help you get to grips with Grid.
+                              </div>
+                        </div>
+                  </div>
+                  <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    What are the difference between bootstrap and tailwind?
+                              </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                              data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                    <strong> Bootstrap</strong> is the most popular HTML, CSS, and JavaScript framework
+                                    for building
+                                    responsive, mobile-first projects on the web. <strong> Tailwind CSS </strong>, on
+                                    the other hand, is
+                                    the most popular utility-first CSS framework for fast UI development.
+
+                                    The main difference between TailwindCSS and Bootstrap is that Tailwind CSS is not a
+                                    UI kit. Unlike UI kits such as Bootstrap, Bulma, and Foundation, Tailwind CSS
+                                    doesn’t have a default theme or built-in UI components. Instead, it comes with
+                                    predesigned widgets you can use to build your site from scratch.
+
+                                    Bootstrap is known for its responsiveness, whereas proponents of Tailwind CSS
+                                    typically value the framework’s customizability. The best choice for you depends on
+                                    your priorities and project requirements, but let’s talk about why Tailwind CSS is
+                                    quickly gaining popularity and more widespread use.
+                              </div>
+                        </div>
+                  </div>
+                  <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    What is css box model?
+                              </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                              data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                    The CSS box model is a container that contains multiple properties including
+                                    <strong>borders,</strong> <strong>margin,</strong> <strong>padding,</strong> and the
+                                    content itself. It is used to
+                                    create the design and layout of web pages. It can be used as a toolkit for
+                                    customizing the layout of different elements. The web browser renders every element
+                                    as a rectangular box according to the CSS box model. Box-Model has multiple
+                                    properties in CSS.
+                              </div>
+                        </div>
+                  </div>
+                  <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    What is semantic tag?
+                              </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                              data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                    The HTML semantics refers to the tags that provide meaning to an HTML page rather
+                                    than just presentation. It makes HTML more comprehensible by better defining the
+                                    different sections and layout of web pages.
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
 
 
 
